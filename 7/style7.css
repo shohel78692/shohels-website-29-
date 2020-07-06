@@ -1,0 +1,171 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.content{
+	height: 100vh;
+	width: 100%;
+	background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content ul li{
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+}
+.content ul li a{
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	color: aqua;
+	font-size: 22px;
+	text-decoration: none;
+}
+.content ul li a:hover{
+	color: #07031A;
+	border: 1px solid #fff;
+	background: #fff;
+}
+.active{
+	border: 1px solid #fff;
+	background: #fff;
+}
+.banner h1{
+	font-size: 80px;
+	color: #fff;
+	margin-top: 150px;
+	text-align: center;
+}
+.banner p{
+	font-size: 30px;
+	color: #fff;
+	margin-top: 15px;
+	text-align: center;
+}
+h1 span{
+	color: aqua;
+}
+p span{
+	color: aqua;
+}
+
+.container{
+	margin: 100px;
+	padding-left: 100px;
+}
+
+.container h2{
+	left: 200px;
+	text-align: center;
+	align-items: center;
+	padding: 13px;
+	margin: 15px;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px 1px;
+	border-top-left-radius: 8px; 
+	border-bottom-right-radius: 8px;
+}
+
+.container img{
+	max-width: 180px;
+	padding: 10px 20px;
+    align-items: center;
+}
+
+
+
+#menu{
+	background: #f8f8fa;
+	padding: 50px 0;
+}
+.details{
+	box-shadow: 0 2px 70px 0 rgba(110,130,208, .18);
+    border-radius: 6px;
+    margin-bottom: 22px;
+}
+.job-updates{
+	background: #fff;
+	padding: 10px 20px;
+	border-radius: 6px;
+}
+.job-updates .fa{
+	margin-top: 6px;
+	margin-right: 10px;
+	color: aqua;
+
+}
+.job-updates small{
+	background: #efefef;
+	padding: 1px 5px;
+	margin: 0 5px;
+	color: #000;
+}
+.job-updates p{
+	display: inline-table;
+	color: #000;
+	font-size: 22px;
+}
+.job-updates a{
+	text-decoration: none !important;
+	color: aqua;
+	float: right;
+}
+.apply-btn{
+	line-height: 40px;
+	background-color: aqua;
+	padding: 7px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.apply-btn .btn-primary{
+    padding: 0 30px;
+    border-radius: 0;
+    box-shadow: none !important;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+
+#app-banner{
+	background-color: aqua;
+	padding: 50px 0;
+}
+#app-banner{
+	margin-top: 20px;
+	color: #fff;
+}
+#app-banner img{
+	width: 150px;
+	margin: 50px 0;
+}
+
+/*--footer----*/
+
+#footer{
+	background: #f8f9fd;
+	padding: 20px 10px 8px;
+}
+
+#footer a{
+	width: 50px;
+}
+
+p{
+	margin-left: 150px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.fa{
+	margin-left: 190px;
+   padding-left: 90px;
+}
+
+.fa-heart{
+	color: red;
+}
+hr{
+	background-color: #ccc;
+}
